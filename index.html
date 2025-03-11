@@ -1,0 +1,540 @@
+<!doctype html>
+<html lang="en" data-theme="dracula">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>portfolio tailwind</title>
+    <style  type="text/tailwindcss">
+        @theme {
+              --radius-5xl: 20% 80% 69% 31% / 46% 39% 61% 54%; 
+            }
+    </style>
+    
+  </head>
+  <body>
+
+    <navbar class="flex justify-center md:justify-between items-center px-40 py-5 bg-[#282A36] text-white position-sticky top-0 z-50">
+      <a href="#" class="flex items-center font-bold text-3xl md:text-xl">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-container"><path d="M22 7.7c0-.6-.4-1.2-.8-1.5l-6.3-3.9a1.72 1.72 0 0 0-1.7 0l-10.3 6c-.5.2-.9.8-.9 1.4v6.6c0 .5.4 1.2.8 1.5l6.3 3.9a1.72 1.72 0 0 0 1.7 0l10.3-6c.5-.3.9-1 .9-1.5Z"/><path d="M10 21.9V14L2.1 9.1"/><path d="m10 14 11.9-6.9"/><path d="M14 19.8v-8.1"/><path d="M18 17.5V9.4"/></svg>
+      JAK<span class="text-[#FFB86C]">DEV</span>
+      </a>
+
+  <ul class=" ml-5 md:flex space-x-10">
+      <li><a href="#Home" class="btn btn-sm btn-ghost color-white">Home</a></li>
+      <li><a href="#About" class="btn btn-sm btn-ghost">About</a></li>
+      <li><a href="#Experiences" class="btn btn-sm btn-ghost">Experience</a></li>
+      <li><a href="#Project" class="btn btn-sm btn-ghost">Project</a></li>
+
+  </ul>
+
+  </navbar>
+
+  <section class="container mx-auto bg-[#282A36] h-110 px-0 md:px-40">
+    <div id="Home" class="flex flex-col-reverse md:flex-row justify-center items-center md:my32 ">
+      <div class="flex flex-col justify-center items-center md:items-start">
+          <h1 class="text-5xl md:text-6xl
+          font-bold text-center md:text-left mt-4 md:mt-0 text-white">Bonjour, <br /> 
+          je suis <span class="text-[#FFB86C]">
+          Jean Alex Koffi</span></h1>
+  
+          <p class="my-4 text-md text-center md:text-left text-white">
+              Je suis un développeur web full-stack et un passionné de technologie.
+              J'ai une expérience dans le développement d'applications web et mobiles.
+              J'aime apprendre de nouvelles technologies et résoudre des problèmes.
+          </p>
+  
+          <a href="" class="btn bg-[#FFB86C] flex rounded-xl px-4 py-4 ">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            Contactez-moi
+          </a>
+      </div>
+  
+      <div class="md:ml-60">
+          <img src="./assets/img.png" alt="" class="w-96 h-96 object-cover
+          border-8 border-accent shadow-xl rounded-5xl"/>
+      </div>
+  </div>
+  </section>
+
+  <!-- SECTION ABOUT -->
+    <section class="bg-[#1F202A] text-white flex flex-col ">
+      <div class="bg-base-300 p-10 mb-10 md:mb-32" id="About">
+        <h1 class="uppercase font-bold mb-5 text-center text-3xl ">
+          A propos
+        </h1>
+
+        <div class="md:h-screen flex justify-center items-center">
+            <div class="hidden md:block">
+                <img src="./assets/img.png" alt="" class="w-96 object-cover
+                rounded-xl"/>
+            </div>
+
+              <div class="flex flex-col">
+<!-- developpeur front-end -->
+                <div class="md:ml-4 space-y-4">
+                  <div class=" flex flex-col md:flex-row items-center bg-base-100 p-5 rounded-xl md:w-96 shadow-xl">
+
+                              <div class="mb-2 md:mb-0 text-[#FFB86C]">
+                                <svg class="" xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-letter-text"><path d="M15 12h6"/><path d="M15 6h6"/><path d="m3 13 3.553-7.724a.5.5 0 0 1 .894 0L11 13"/><path d="M3 18h18"/><path d="M4 11h6"/></svg>
+                              </div>
+
+                              <div class="md:ml-4 text-center md:text-left">
+                                  <h2 class="text-xl font-bold mb-1">
+                                    Développeur Frontend
+                                  </h2>
+                                  <p>
+                                      Je développe des interfaces utilisateur modernes et réactives en utilisant
+                                      des technologies frontend comme React, Tailwind CSS et bien d'autres.
+                                  </p>
+                              </div>
+
+                  </div>
+              </div>
+<!-- Développeur Back-end -->
+              <div class="md:ml-4 space-y-4">
+                <div class=" flex flex-col md:flex-row items-center bg-base-100 p-5 rounded-xl md:w-96 shadow-xl">
+
+                            <div class="mb-2 md:mb-0 text-[#FFB86C]">
+                              <svg class="" xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-letter-text"><path d="M15 12h6"/><path d="M15 6h6"/><path d="m3 13 3.553-7.724a.5.5 0 0 1 .894 0L11 13"/><path d="M3 18h18"/><path d="M4 11h6"/></svg>
+                            </div>
+
+                            <div class="md:ml-4 text-center md:text-left">
+                                <h2 class="text-xl font-bold mb-1">
+                                  Développeur Back-end
+                                </h2>
+                                <p>
+                                  J'ai développé des applications web et mobiles en utilisant PHP, 
+                                  J'ai aussi travaillé avec Node.js et Express.
+                                </p>
+                            </div>
+
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    
+    <!-- SECTION EXPERIENCES -->
+
+    <div id="Experiences" class="bg-[#282A36] text-white p-10">
+        <h1 class="uppercase font-bold mb-5 text-center text-3xl text-white">
+          Expériences
+        </h1>
+      <div class="flex flex-col-reverse md:flex-row justify-center items-center gap-4">
+        <div class="flex flex-wrap gap-4 justify-center items-center md:w-1/3 mt-4 md:mt-0">
+            
+                <div class="flex flex-col  justify-center items-center">
+                   <div class="w-24 h-24 p-2 rounded-full border-2 border-accent">
+                        <img src="assets/techno/html.png" alt={skill.name} 
+                        class="object-cover rounded-full h-full w-full"/>
+                   </div>
+                   <span class="mt-2 text-sm">html</span>
+                </div>
+
+                <div class="flex flex-col  justify-center items-center">
+                    <div class="w-24 h-24 p-2 rounded-full border-2 border-accent">
+                        <img src="assets/techno/css.png" alt={skill.name} 
+                        class="object-cover rounded-full h-full w-full"/>
+                    </div>
+                    <span class="mt-2 text-sm">css</span>
+                </div>
+
+                <div class="flex flex-col  justify-center items-center">
+                    <div class="w-24 h-24 p-2 rounded-full border-2 border-accent">
+                        <img src="assets/techno/js.png" alt={skill.name} 
+                        class="object-cover rounded-full h-full w-full"/>
+                    </div>
+                    <span class="mt-2 text-sm">javascript</span>
+                </div>
+
+                <div class="flex flex-col  justify-center items-center">
+                    <div class="w-24 h-24 p-2 rounded-full border-2 border-accent">
+                        <img src="assets/techno/react.png" alt={skill.name} 
+                        class="object-cover rounded-full h-full w-full"/>
+                    </div>
+                    <span class="mt-2 text-sm">react</span>
+                </div>
+
+                <div class="flex flex-col  justify-center items-center">
+                    <div class="w-24 h-24 p-2 rounded-full border-2 border-accent">
+                        <img src="assets/techno/tailwind.png" alt={skill.name} 
+                        class="object-cover rounded-full h-full w-full"/>
+                    </div>
+                    <span class="mt-2 text-sm">tailwind css</span>
+                </div>
+
+                <div class="flex flex-col  justify-center items-center">
+                    <div class="w-24 h-24 p-2 rounded-full border-2 border-accent">
+                        <img src="assets/techno/node-js.png" alt={skill.name} 
+                        class="object-cover rounded-full h-full w-full"/>
+                    </div>
+                    <span class="mt-2 text-sm">node.js</span>
+                </div>
+
+                <div class="flex flex-col  justify-center items-center">
+                    <div class="w-24 h-24 p-2 rounded-full border-2 border-accent">
+                        <img src="assets/techno/next-js.webp" alt={skill.name} 
+                        class="object-cover rounded-full h-full w-full"/>
+                    </div>
+                    <span class="mt-2 text-sm">Next.js</span>
+                </div>
+
+                <div class="flex flex-col  justify-center items-center">
+                    <div class="w-24 h-24 p-2 rounded-full border-2 border-accent">
+                        <img src="assets/techno/typescript.svg" alt={skill.name} 
+                        class="object-cover rounded-full h-full w-full"/>
+                    </div>
+                    <span class="mt-2 text-sm">TypeScript</span>
+                </div>
+        </div>
+
+        <!-- <div class="md:ml-4 flex flex-col space-y-4">
+                <div class="flex flex-col bg-base-200 p-5 rounded-xl shadow-lg">
+                    <div class="flex items-center">
+                        <img src={experience.image} alt={experience.company} class="object-cover h-10 w-10"/>
+                        <div class="ml-4">
+                            <h1 class="text-xl text-accent font-bold">
+                                {experience.role} - {experience.company}
+                            </h1>
+                            <span class="text-sm"> {experience.period} </span>
+                        </div>
+                        
+                    </div>
+                    <ul class="list-disc ml-16 mt-2">
+                            <li key={index}>
+                                {desc}
+                            </li>
+                        
+                    </ul>
+                </div>
+            
+        </div> -->
+
+      </div>
+    </div>
+
+    <!-- SECTION PROJECTS -->
+
+
+    <div class="bg-[#282A36] md:p-40" id="Project">
+        <h1 class="uppercase font-bold mb-5 text-center text-3xl text-white">
+          Mes Projets
+        </h1>
+
+      <div class="grid gap-10">
+
+        <div class="flex justify-center flex-col md:flex-row gap-4">
+
+          <div class=" gap-4">
+
+            <div class="bg-base-300 p-5 h-fit rounded-xl shadow-lg bg-[#1F202A]">
+            <img src="assets/projects/1.jpeg" alt="Gestionnaire de tâches" class="w-full h-48 object-cover rounded-xl"/>
+
+            <div class="text-white">
+                <h1 class="my-2 font-bold text-center">
+                  Gestionnaire de tâches
+                </h1>
+                <p class="text-sm">
+                  agence créative à service complet spécialisée dans l\'aide aux marques pour une croissance rapide. 
+                  Engagez vos clients grâce à des visuels convaincants qui font la majeure partie du marketing pour vous. 
+                </p>
+            </div>
+
+            <div class="flex flex-wrap gap-2 my-3">
+                
+                    <span class="badge bg-[#FFB86C] rounded-full px-2">
+                      React
+                    </span>
+                    <span class="badge bg-[#FFB86C] rounded-full px-2">
+                      Tailwind CSS
+                    </span>
+                    <span class="badge bg-[#FFB86C] rounded-full px-2">
+                      Node.js
+                    </span>
+                
+            </div>
+
+            <div class="flex flex-row justify-between gap-2">
+                <a class="btn bg-[#FFB86C] w-2/3 flex justify-center py-4 px-0 rounded-xl gap-2" href="https://pratique-tellwin.vercel.app/">
+                    demo
+                    <svg className="w-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-video"><path d="m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5"/><rect x="2" y="6" width="14" height="12" rx="2"/></svg>
+                </a>
+
+                <a class="btn bg-[#414558] rounded-xl flex justify-center items-center w-1/3 ml-2" href="https://github.com/alexkoffi2004/pratique-tellwin.git">
+                    
+                  <svg className="w-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                </a>
+
+            </div>
+
+            </div>
+
+          </div>
+
+          <div class=" gap-4">
+
+            <div class="bg-base-300 p-5 h-fit rounded-xl shadow-lg bg-[#1F202A]">
+  <img src="assets/projects/2.png" alt="Gestionnaire de tâches" class="w-full h-48 object-cover rounded-xl"/>
+
+  <div class="text-white">
+      <h1 class="my-2 font-bold text-center">
+        Plateforme E-commerce
+      </h1>
+      <p class="text-sm">
+        Notre plateforme de e-commerce offre une expérience d\'achat simple, rapide et sécurisée. 
+        Découvrez une large gamme de produits de qualité, des offres compétitives et un service client dédié 
+      </p>
+  </div>
+
+  <div class="flex flex-wrap gap-2 my-3">
+      
+          <span class="badge bg-[#FFB86C] rounded-full px-2">
+            React
+          </span>
+          <span class="badge bg-[#FFB86C] rounded-full px-2">
+            Tailwind CSS
+          </span>
+          <span class="badge bg-[#FFB86C] rounded-full px-2">
+            JavaScript
+          </span>
+      
+  </div>
+
+  <div class="flex flex-row justify-between gap-2">
+      <a class="btn bg-[#FFB86C] w-2/3 flex justify-center py-4 px-0 rounded-xl gap-2" href="https://alexkoffi2004.github.io/exo-1-frontend-Mentor/">
+          demo
+          <svg className="w-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-video"><path d="m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5"/><rect x="2" y="6" width="14" height="12" rx="2"/></svg>
+      </a>
+
+      <a class="btn bg-[#414558] rounded-xl flex justify-center items-center w-1/3 ml-2" href="https://github.com/alexkoffi2004/exo-1-frontend-Mentor.git">
+          
+        <svg className="w-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+      </a>
+
+  </div>
+
+            </div>
+
+          </div>
+
+          <div class=" gap-4">
+
+            <div class="bg-base-300 p-5 h-fit rounded-xl shadow-lg bg-[#1F202A]">
+                    <img src="assets/projects/3.jpeg" alt="Gestionnaire de tâches" class="w-full h-48 object-cover rounded-xl"/>
+
+                    <div class="text-white">
+                          <h1 class="my-2 font-bold text-center">
+                              Portfolio interactif
+                          </h1>
+                          <p class="text-sm">
+                              Mon portfolio présente mes compétences, réalisations et projets, 
+                              reflétant mon expertise, mon objectif et ma passion pour l`\'excellence. 
+                          </p>
+                  </div>
+
+  <div class="flex flex-wrap gap-2 my-3">
+      
+          <span class="badge bg-[#FFB86C] rounded-full px-2">
+            Html
+          </span>
+          <span class="badge bg-[#FFB86C] rounded-full px-2">
+            CSS
+          </span>
+          <span class="badge bg-[#FFB86C] rounded-full px-2">
+            JavaScript
+          </span>
+      
+  </div>
+
+  <div class="flex flex-row justify-between gap-2">
+      <a class="btn bg-[#FFB86C] w-2/3 flex justify-center py-4 px-0 rounded-xl gap-2" href="https://portfoliohtml-sooty.vercel.app/">
+          demo
+          <svg className="w-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-video"><path d="m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5"/><rect x="2" y="6" width="14" height="12" rx="2"/></svg>
+      </a>
+
+      <a class="btn bg-[#414558] rounded-xl flex justify-center items-center w-1/3 ml-2" href="https://github.com/alexkoffi2004/fin-du-portfolio_css.git">
+          
+        <svg className="w-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+      </a>
+
+  </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="flex justify-center flex-col md:flex-row gap-4">
+
+          <div class=" gap-4">
+
+        <div class="bg-base-300 p-5 h-fit rounded-xl shadow-lg bg-[#1F202A]">
+          <img src="assets/projects/4.png" alt="Gestionnaire de tâches" class="w-full h-48 object-cover rounded-xl"/>
+
+          <div class="text-white">
+            <h1 class="my-2 font-bold text-center">
+              Application de Chat en temps réel
+            </h1>
+            <p class="text-sm">
+              Une plateforme de discussion en ligne conviviale, 
+              conçue pour connecter les utilisateurs et favoriser des échanges riches et dynamiques. 
+            </p>
+          </div>
+
+          <div class="flex flex-wrap gap-2 my-3">
+            
+            <span class="badge bg-[#FFB86C] rounded-full px-2">
+                  React
+            </span>
+            <span class="badge bg-[#FFB86C] rounded-full px-2">
+                  Tailwind CSS
+            </span>
+            <span class="badge bg-[#FFB86C] rounded-full px-2">
+                  Node.js
+            </span>
+            
+          </div>
+
+          <div class="flex flex-row justify-between gap-2">
+              <a class="btn bg-[#FFB86C] w-2/3 flex justify-center py-4 px-0 rounded-xl gap-2" href="https://pratique-tellwin.vercel.app/">
+                  demo
+                  <svg className="w-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-video"><path d="m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5"/><rect x="2" y="6" width="14" height="12" rx="2"/></svg>
+              </a>
+
+              <a class="btn bg-[#414558] rounded-xl flex justify-center items-center w-1/3 ml-2" href="https://github.com/alexkoffi2004/pratique-tellwin.git">
+                
+                <svg className="w-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+              </a>
+
+          </div>
+
+        </div>
+
+          </div>
+
+          <div class=" gap-4">
+
+            <div class="bg-base-300 p-5 h-fit rounded-xl shadow-lg bg-[#1F202A]">
+                <img src="assets/projects/5.png" alt="Gestionnaire de tâches" class="w-full h-48 object-cover rounded-xl"/>
+
+              <div class="text-white">
+                <h1 class="my-2 font-bold text-center">
+                  Réservation de Table, Restaurant
+                </h1>
+                <p class="text-sm">
+                  Un restaurant en ligne qui vous propose des plats savoureux, 
+                  préparés avec des ingrédients frais, et livrés rapidement à votre porte. 
+                </p>
+              </div>
+
+              <div class="flex flex-wrap gap-2 my-3">
+  
+                <span class="badge bg-[#FFB86C] rounded-full px-2">
+                  React
+                </span>
+                <span class="badge bg-[#FFB86C] rounded-full px-2">
+                  Tailwind CSS
+                </span>
+                <span class="badge bg-[#FFB86C] rounded-full px-2">
+                  JavaScript
+                </span>
+  
+              </div>
+
+              <div class="flex flex-row justify-between gap-2">
+                <a class="btn bg-[#FFB86C] w-2/3 flex justify-center py-4 px-0 rounded-xl gap-2" href="https://projet1-cours-boostrap-t8rk.vercel.app/">
+                    demo
+                    <svg className="w-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-video"><path d="m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5"/><rect x="2" y="6" width="14" height="12" rx="2"/></svg>
+                </a>
+
+                <a class="btn bg-[#414558] rounded-xl flex justify-center items-center w-1/3 ml-2" href="https://github.com/alexkoffi2004/projet1_cours_boostrap.git">
+      
+                  <svg className="w-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                </a>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class=" gap-4">
+
+            <div class="bg-base-300 p-5 h-fit rounded-xl shadow-lg bg-[#1F202A]">
+                <img src="assets/projects/6.png" alt="Gestionnaire de tâches" class="w-full h-48 object-cover rounded-xl"/>
+
+              <div class="text-white">
+                  <h1 class="my-2 font-bold text-center">
+                      Platform E-commerce
+                  </h1>
+                  <p class="text-sm">
+                    Une boutique en ligne moderne, offrant des produits variés à des prix compétitifs, 
+                    avec une livraison rapide et un service fiable. 
+                  </p>
+              </div>
+
+              <div class="flex flex-wrap gap-2 my-3">
+  
+                  <span class="badge bg-[#FFB86C] rounded-full px-2">
+                      Html
+                  </span>
+                  <span class="badge bg-[#FFB86C] rounded-full px-2">
+                      CSS
+                  </span>
+                  <span class="badge bg-[#FFB86C] rounded-full px-2">
+                  JavaScript
+                  </span>
+  
+              </div>
+
+              <div class="flex flex-row justify-between gap-2">
+                  <a class="btn bg-[#FFB86C] w-2/3 flex justify-center py-4 px-0 rounded-xl gap-2" href="https://projet2-cours-boostrap.vercel.app/">
+                      demo
+                    <svg className="w-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-video"><path d="m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5"/><rect x="2" y="6" width="14" height="12" rx="2"/></svg>
+                  </a>
+
+                  <a class="btn bg-[#414558] rounded-xl flex justify-center items-center w-1/3 ml-2" href="https://github.com/alexkoffi2004/projet2_cours_boostrap.git">
+      
+                    <svg className="w-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                  </a>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <footer class="flex flex-col justify-center p-10 bg-[#282A36] text-white">
+      
+        <div class="text-center">       
+            <p class="font-bold">
+            JAK<span class="text-[#FFB86C]">DEV</span>
+            </p>
+            <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
+        </div>
+        <nav>
+          <div class="grid grid-flow-col gap-4 justify-center mt-4">
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-twitter"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
+            </a>
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-youtube"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><path d="m10 15 5-3-5-3z"/></svg>
+            </a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+          </div>
+        </nav>
+    </footer>
+  </body>
+</html>
