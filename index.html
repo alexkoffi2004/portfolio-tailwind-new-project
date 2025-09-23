@@ -31,15 +31,15 @@
 
   </navbar>
 
-  <section class="container mx-auto bg-[#282A36] h-110 px-0 md:px-40">
+  <section class="bg-[#282A36] h-200 md:h-100 md:px-30">
     <div id="Home" class="flex flex-col-reverse md:flex-row justify-center items-center md:my32 ">
       <div class="flex flex-col justify-center items-center md:items-start">
-          <h1 class="text-5xl md:text-6xl
+          <h1 class="text-5xl mb-8 text-justify md:text-6xl
           font-bold text-center md:text-left mt-4 md:mt-0 text-white">Bonjour, <br /> 
           je suis <span class="text-[#FFB86C]">
           Jean Alex Koffi</span></h1>
   
-          <p class="my-4 text-md text-center md:text-left text-white">
+          <p class="my-4 text-md mb-10 text-center md:text-left text-white">
               Je suis un développeur web full-stack et un passionné de technologie.
               J'ai une expérience dans le développement d'applications web et mobiles.
               J'aime apprendre de nouvelles technologies et résoudre des problèmes.
@@ -59,12 +59,19 @@
   </section>
 
   <!-- SECTION ABOUT -->
-    <section class="bg-[#1F202A] text-white flex flex-col ">
+    <section class="bg-[#1F202A] text-white flex flex-col">
       <div class="bg-base-300 p-10 mb-10 md:mb-32" id="About">
         <h1 class="uppercase font-bold mb-5 text-center text-3xl ">
           A propos
         </h1>
-        <p class="text-center md:text-justify px-35">Je m’appelle Kouadio Jean Alex Koffi, développeur fullstack passionné 
+        <div class="shadow-xl grid grid-cols-1 md:grid-cols-[150px_1fr] items-center gap-7">
+          <div class="hidden md:block">
+                <img src="./assets/img.png" alt="" class="w-80 object-cover
+                rounded-xl"/>
+            </div>
+
+        <p class="text-center bg-base-100 rounded-xl  md:text-justify ">
+          Je m’appelle Kouadio Jean Alex Koffi, développeur fullstack passionné 
           par le numérique et les nouvelles technologies. J’ai obtenu une licence en informatique et 
           sciences du numérique, spécialité développement d’application et e-service, à l’Université 
           Virtuelle de Côte d’Ivoire, et je poursuis actuellement un Master en Big Data Analytics pour 
@@ -80,12 +87,10 @@
           vision claire : créer des solutions numériques utiles, innovantes et adaptées aux besoins 
           réels des utilisateurs.
         </p>
+        </div>
 
         <div class="md:h-screen flex justify-center items-center">
-            <div class="hidden md:block">
-                <img src="./assets/img.png" alt="" class="w-96 object-cover
-                rounded-xl"/>
-            </div>
+            
 
               <div class="flex flex-col">
 <!-- developpeur front-end -->
