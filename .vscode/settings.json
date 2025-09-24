@@ -1,3 +1,8 @@
 {
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "auto-rename-tag.activationOnLanguage": [
+        "html", "xml", "php", "javascript",
+        "*"
+    ],
+    "prettier.useEditorConfig": true
 }
